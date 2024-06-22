@@ -21,4 +21,8 @@ body {
   font-weight: 600;
   box-sizing: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: background-color 0.3s easy;
+}
+.btn-default:hover {
+  background-color: #f8d477;
 }
