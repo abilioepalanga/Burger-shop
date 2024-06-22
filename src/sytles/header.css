@@ -17,3 +17,8 @@ header {
   list-style: none;
   gap: 48px;
 }
+.nav_item a {
+  text-decoration: none;
+  color: #1d1d1dad;
+  font-weight: 600;
+}
