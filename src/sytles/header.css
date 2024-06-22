@@ -2,3 +2,9 @@ header {
   width: 100%;
   padding: 20px 8%;
 }
+#navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
