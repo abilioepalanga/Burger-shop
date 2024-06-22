@@ -12,3 +12,8 @@ header {
   font-size: 24px;
   color: #e9a209;
 }
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
