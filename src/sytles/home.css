@@ -13,11 +13,16 @@
 
 #cta .title {
   font-size: 4rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 #cta .title span {
   color: #e9a209;
   font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  word-break: break-all;
 }
 #cta .description {
   font-size: 1.2rem;
