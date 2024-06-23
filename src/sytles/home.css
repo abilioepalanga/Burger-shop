@@ -10,3 +10,14 @@
   gap: 28px;
   margin-top: 5%;
 }
+
+#cta .title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#cta .title span {
+  color: #e9a209;
+  font-size: 4rem;
+  font-weight: 700;
+}
