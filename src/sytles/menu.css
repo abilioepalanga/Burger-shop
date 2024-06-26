@@ -4,6 +4,8 @@
   justify-content: center;
   min-height: 30%;
   flex-wrap: wrap;
+  background-color: blue;
+  margin-top: -30%;
 }
 
 #hamb-1 {
@@ -24,7 +26,7 @@
   justify-content: center;
   gap: 24px;
   margin-top: 32px;
-  width: 100%;
+  width: 50%;
 }
 .dish {
   display: flex;
@@ -36,10 +38,13 @@
   width: 25%;
   background-color: #ffff;
   justify-content: center;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 .dish-heart {
+  position: absolute;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
-  margin-top: 32px;
+  font-size: 1.563;
+  background-color: brown;
 }
