@@ -1,6 +1,6 @@
-.menu {
+#menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   min-height: 30%;
   flex-wrap: wrap;
