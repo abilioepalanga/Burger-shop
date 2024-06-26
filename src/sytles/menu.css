@@ -1,10 +1,9 @@
 .menu {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 20px 8%;
-  background-color: #fff9ea;
-  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  min-height: 100vh;
 }
 
 #hamb-1 {
@@ -18,5 +17,4 @@
 #hamb-3 {
   width: 350px;
   height: 330px;
-  margin: 6px 0;
 }
