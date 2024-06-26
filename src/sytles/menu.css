@@ -18,11 +18,25 @@
   height: 30vb;
   width: 30vb;
 }
-.dish-heart {
+
+#dishes {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   gap: 24px;
   margin-top: 32px;
-  flex-wrap: nowrap;
+  width: 100%;
+}
+.dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 20px;
+  width: 25%;
+}
+.dish-heart {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
 }
