@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #fff9ea;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#hamb-1 {
+  width: 290px;
+  height: 290px;
+}
+#hamb-2 {
+  width: 430px;
+  height: 430px;
+}
+#hamb-3 {
+  width: 350px;
+  height: 330px;
+  margin: 6px 0;
+}
