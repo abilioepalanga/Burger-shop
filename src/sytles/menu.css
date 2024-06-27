@@ -79,9 +79,9 @@
   }
 }
 #hamb-1 {
-  height: 28vb;
-  width: 23vb;
-  margin-top: 4vh;
+  height: 20vb;
+  width: 20vb;
+  margin-top: 10vh;
 }
 #hamb-2 {
   height: 33vb;
@@ -95,5 +95,13 @@
 #hamb-4 {
   height: 28vb;
   width: 28vb;
-  margin-top: 4vh;
+  margin-top: 3vh;
+}
+
+#primeiro {
+  margin-top: 3vh;
+}
+
+#primeiro_titulo {
+  margin-top: 30vh;
 }
