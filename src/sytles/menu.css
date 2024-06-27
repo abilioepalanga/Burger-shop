@@ -44,8 +44,11 @@
 }
 
 .dish-description {
-  color: #434343;
+  color: #df1919;
   text-align: center;
+  display: table-row;
+  height: 30px;
+  overflow-y: hidden;
 }
 
 .dish-rate i {
@@ -78,30 +81,12 @@
     text-align: center;
   }
 }
-#hamb-1 {
-  height: 20vb;
-  width: 20vb;
-  margin-top: 10vh;
-}
-#hamb-2 {
-  height: 33vb;
-  width: 37vb;
-}
-#hamb-3 {
-  height: 30vb;
-  width: 30vb;
-  margin-top: 3vh;
-}
-#hamb-4 {
-  height: 28vb;
-  width: 28vb;
-  margin-top: 3vh;
-}
 
-#primeiro {
-  margin-top: 3vh;
+.dish-image {
+  height: 200px;
+  object-fit: contain;
+  max-width: 90%;
 }
-
-#primeiro_titulo {
-  margin-top: 30vh;
+.dish-title {
+  height: 30px;
 }
