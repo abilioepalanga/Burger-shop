@@ -44,7 +44,7 @@
 }
 
 .dish-description {
-  color: #df1919;
+  color: #000000;
   text-align: center;
   display: table-row;
   height: 30px;
@@ -52,7 +52,7 @@
 }
 
 .dish-rate i {
-  color: var(--color-primary-6);
+  color: yellowgreen;
 }
 
 .dish-price {
