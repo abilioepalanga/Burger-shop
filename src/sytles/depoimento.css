@@ -1,0 +1,9 @@
+#depoimento {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+}
+#dep-title,
+#dep-subtitle {
+  text-align: center;
+}
