@@ -16,6 +16,7 @@
   border-radius: 14px;
   text-align: center;
   width: 350px;
+  transition: all 0.3s ease;
 }
 .depoimento-card .card-item img {
   border-radius: 100%;
@@ -28,4 +29,16 @@
   font-family: "Indie Flower", cursive;
   font-weight: 599;
   font-style: normal;
+}
+.estrela {
+  display: flex;
+  gap: 5px;
+  background-color: blue;
+  margin: 15px 0;
+  color: #ffcb45;
+  border-top: 2px solid black;
+}
+.depoimento-card .card-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
