@@ -7,3 +7,11 @@
 #dep-subtitle {
   text-align: center;
 }
+
+.depoimento-card .card-item {
+  background-color: aqua;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+}
