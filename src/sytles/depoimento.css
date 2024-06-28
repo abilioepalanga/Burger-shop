@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 #depoimento {
   background-color: coral;
   display: flex;
@@ -9,7 +11,7 @@
 }
 
 .depoimento-card .card-item {
-  background-color: aqua;
+  background-color: rgb(230, 232, 205);
   margin: 15px;
   border-radius: 14px;
   text-align: center;
@@ -20,4 +22,10 @@
   width: 70px;
   height: 70px;
   margin: 20px auto;
+}
+.depoimento-card .p-dep {
+  background-color: chartreuse;
+  font-family: "Indie Flower", cursive;
+  font-weight: 599;
+  font-style: normal;
 }
