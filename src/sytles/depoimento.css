@@ -15,3 +15,9 @@
   text-align: center;
   width: 350px;
 }
+.depoimento-card .card-item img {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+}
