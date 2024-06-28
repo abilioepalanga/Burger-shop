@@ -53,7 +53,6 @@
 #banner img {
   z-index: 2;
   object-fit: cover;
-
   background-color: #ffe8b4;
   width: 40%;
   height: 85%;
@@ -61,7 +60,6 @@
   border-radius: 30% 30% 30% 30%;
   top: 30px;
   right: 75px;
-
   display: flex;
 }
 
