@@ -15,14 +15,15 @@
   margin: 15px;
   border-radius: 14px;
   text-align: center;
-  width: 350px;
+  width: 750px;
   transition: all 0.3s ease;
+  padding: 4px;
 }
 .depoimento-card .card-item img {
   border-radius: 100%;
-  width: 70px;
+  width: 90px;
   height: 70px;
-  margin: 20px auto;
+  margin-bottom: 5px;
 }
 .depoimento-card .p-dep {
   background-color: chartreuse;
@@ -41,4 +42,16 @@
 .depoimento-card .card-item:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#depoimento .conteiner {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #ffcb45;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 20px;
 }
