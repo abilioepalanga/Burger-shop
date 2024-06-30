@@ -9,3 +9,14 @@
 #contact-subtitle {
   text-align: center;
 }
+.Contactos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #ffcb45;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 20px;
+  color: black;
+}
