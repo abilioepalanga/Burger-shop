@@ -20,3 +20,9 @@
   margin: 20px;
   color: black;
 }
+.serv-pag-Neg {
+  text-decoration: solid;
+  -moz-text-size-adjust: 10%;
+  color: brown;
+  font-weight: 600;
+}
