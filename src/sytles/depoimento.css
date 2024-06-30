@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 #depoimento {
-  background-color: coral;
   display: flex;
   justify-content: center;
 }
@@ -11,13 +10,14 @@
 }
 
 .depoimento-card .card-item {
-  background-color: rgb(230, 232, 205);
+  background-color: white;
   margin: 15px;
   border-radius: 14px;
   text-align: center;
   width: 750px;
   transition: all 0.3s ease;
   padding: 4px;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 .depoimento-card .card-item img {
   border-radius: 100%;
@@ -26,7 +26,6 @@
   margin-bottom: 5px;
 }
 .depoimento-card .p-dep {
-  background-color: chartreuse;
   font-family: "Indie Flower", cursive;
   font-weight: 599;
   font-style: normal;
@@ -34,7 +33,6 @@
 .estrela {
   display: flex;
   gap: 5px;
-  background-color: blue;
   margin: 15px 0;
   color: #ffcb45;
   border-top: 2px solid black;
