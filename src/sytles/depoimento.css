@@ -53,3 +53,28 @@
   border-radius: 14px;
   margin: 20px;
 }
+
+@media screen and (max-width: 1170px) {
+  .depoimento-card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-item {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .card-item {
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .depoimento-card {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+}
