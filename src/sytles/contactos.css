@@ -49,6 +49,7 @@
   margin-top: 5px;
 }
 #divisao {
+  margin-bottom: 00px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -69,4 +70,7 @@
   color: black;
   width: 300px;
   height: 250px;
+}
+.form-all .btn-default {
+  background-color: aliceblue;
 }
