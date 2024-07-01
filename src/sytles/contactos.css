@@ -73,3 +73,46 @@
 .form-all .btn-default {
   background-color: aliceblue;
 }
+
+.text_edite {
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 8px;
+}
+.textarea_edite {
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 8px;
+}
+@media screen and (max-width: 1170px) {
+  .contact-form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Contactos,
+  #divisao {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #divisao {
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+}
+
+#copyriht {
+  color: blanchedalmond;
+  text-align: left;
+}
