@@ -55,9 +55,11 @@
 }
 
 @media screen and (max-width: 1170px) {
-  .depoimento-card {
+  .depoimento-card,
+  #depoimento .conteiner {
     flex-wrap: wrap;
     justify-content: center;
+    width: calc(50% - 12px);
   }
 
   .card-item {
@@ -67,8 +69,8 @@
 
 @media screen and (max-width: 790px) {
   .card-item {
-    max-width: 70%;
     display: flex;
+    min-width: 60%;
     justify-content: center;
   }
 
