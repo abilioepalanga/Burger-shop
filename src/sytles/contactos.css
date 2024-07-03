@@ -91,21 +91,24 @@
   color: blanchedalmond;
   text-align: left;
 }
-@media screen and (max-width: 870px) {
-  .contact-redesociais {
-    padding: 3%;
-    flex-wrap: wrap;
-    overflow: hidden;
-    max-width: 50%;
-  }
-}
+
 @media screen and (max-width: 867px) {
-  .contact-form {
+  .container-contact {
     padding: 5%;
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  #divisao,
+  .Contactos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 4px;
   }
 }
